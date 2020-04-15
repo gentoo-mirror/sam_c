@@ -1,0 +1,5 @@
+dev-libs/cppglob 1.1.0: C++ port of Python's glob module
+dev-libs/cxxopts 2.2.0: Lightweight C++ command line option parser
+dev-libs/elfio 3.5: ELF reader/producer header-only C++ library
+dev-libs/termcolor 1.0.1: A header-only C++ library for printing colored messages to the terminal
+dev-util/libtree 1.0.3: ldd as a tree with an option to bundle dependencies into a single folder
