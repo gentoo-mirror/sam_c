@@ -1,7 +1,7 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 2020-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit cmake
 
@@ -17,7 +17,7 @@ RESTRICT="!test? ( test )"
 
 src_configure() {
 	local mycmakeopts=(
-		-DCXXOPTS_BUILD_TESTS="$(usex test)"
+		-DCXXOPTS_BUILD_TESTS=$(usex test)
 	)
 
 	cmake_src_configure
