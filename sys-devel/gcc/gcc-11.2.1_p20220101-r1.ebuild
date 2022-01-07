@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PATCH_VER="2"
+PATCH_VER="3"
 PATCH_GCC_VER="11.3.0"
 MUSL_VER="1"
 MUSL_GCC_VER="11.2.0"
@@ -17,6 +17,8 @@ BDEPEND="${CATEGORY}/binutils"
 
 src_prepare() {
 	toolchain_src_prepare
+
+	eapply "${FILESDIR}"/${P}-pch-openjdk.patch
 
 	if tc-is-cross-compiler ; then
 		# bug #803371
