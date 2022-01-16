@@ -1,4 +1,4 @@
 games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie Forrest Gump
 games-misc/fortune-mod-simpsons-chalkboard 1: A collection of quotes from opening credits of The Simpsons
 net-misc/realtek-rtl88x2bu 0_p20210415-r1 0_p20211010: rtl88x2bu driver updated for current kernels
-sys-devel/gcc 11.2.1_p20220101-r1: The GNU Compiler Collection
+sys-devel/gcc 11.2.1_p20220115: The GNU Compiler Collection
