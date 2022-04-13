@@ -1,4 +1,5 @@
+app-portage/sam-gentoo-scripts 9999: A collection of scripts for Gentoo development
 games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie Forrest Gump
 games-misc/fortune-mod-simpsons-chalkboard 1: A collection of quotes from opening credits of The Simpsons
 net-misc/realtek-rtl88x2bu 0_p20210415-r1 0_p20211010: rtl88x2bu driver updated for current kernels
-sys-devel/gcc 11.2.1_p20220115 11.2.1_p20220312 11.2.1_p20220326: The GNU Compiler Collection
+sys-devel/gcc 11.2.1_p20220115 11.2.1_p20220312 11.2.1_p20220326 12.0.1_pre20220327: The GNU Compiler Collection
