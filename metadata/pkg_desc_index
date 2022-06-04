@@ -1,4 +1,6 @@
 app-portage/sam-gentoo-scripts 9999: A collection of scripts for Gentoo development
+dev-libs/tlsh 4.8.2: Fuzzy matching library
+dev-python/tlsh 4.8.2: Fuzzy matching library - C++ extension for Python
 games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie Forrest Gump
 games-misc/fortune-mod-simpsons-chalkboard 1: A collection of quotes from opening credits of The Simpsons
 net-misc/realtek-rtl88x2bu 0_p20210415-r1 0_p20211010: rtl88x2bu driver updated for current kernels
