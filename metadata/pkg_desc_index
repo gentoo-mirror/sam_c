@@ -1,3 +1,4 @@
+app-admin/apache-tools 2.4.54-r1: Useful Apache tools - htdigest, htpasswd, ab, htdbm
 app-portage/sam-gentoo-scripts 9999: A collection of scripts for Gentoo development
 app-shells/bash 5.2_rc1: The standard GNU Bourne again shell
 games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie Forrest Gump
