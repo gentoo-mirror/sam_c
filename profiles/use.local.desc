@@ -2,4 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-crypt/tomb:tray - Add a Tomb tray icon in a Qt desktop toolbar
 sys-devel/gettext-tiny:shim - Install libintl library. Not suitable on glibc systems. On musl systems, passes contents through and translates via musl's libintl. On other systems, provides a no-op library (returns input text with no changes/translations).
