@@ -8,7 +8,5 @@ games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie For
 games-misc/fortune-mod-simpsons-chalkboard 1: A collection of quotes from opening credits of The Simpsons
 net-misc/realtek-rtl88x2bu 0_p20210415-r1 0_p20211010: rtl88x2bu driver updated for current kernels
 sys-devel/gettext-tiny 0.3.2-r1: Stub and/or lightweight replacements of the GNU gettext suite
-sys-devel/reflex 20221012: This is a variant of the flex fast lexical scanner
-sys-kernel/linux-firmware 20221012 99999999: Linux firmware files
 www-client/firefox 106.0.5: Firefox Web Browser
 www-client/ladybird 9999: Ladybird web browser using SerenityOS LibWeb engine with a Qt GUI
