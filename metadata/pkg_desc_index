@@ -7,7 +7,6 @@ dev-util/arcanist 9999: Command line interface for Phabricator
 games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie Forrest Gump
 games-misc/fortune-mod-simpsons-chalkboard 1: A collection of quotes from opening credits of The Simpsons
 net-misc/realtek-rtl88x2bu 0_p20210415-r1 0_p20211010: rtl88x2bu driver updated for current kernels
-sys-apps/moar 1.10.0: Moar is a pager. It's designed to just do the right thing without any configuration.
 sys-devel/gettext-tiny 0.3.2-r1: Stub and/or lightweight replacements of the GNU gettext suite
 www-client/firefox 106.0.5: Firefox Web Browser
 www-client/ladybird 9999: Ladybird web browser using SerenityOS LibWeb engine with a Qt GUI
