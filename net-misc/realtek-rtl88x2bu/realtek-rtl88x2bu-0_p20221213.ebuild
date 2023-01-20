@@ -1,11 +1,11 @@
 # Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit linux-mod
 
-MY_COMMIT="342c46353b523dee8c61282eb1cab5788c7d3386"
+MY_COMMIT="549257e6f62e8d7931e15f963aa06bb3c622ec7e"
 DESCRIPTION="rtl88x2bu driver updated for current kernels"
 HOMEPAGE="https://github.com/cilynx/rtl88x2bu"
 SRC_URI="https://github.com/cilynx/rtl88x2bu/archive/${MY_COMMIT}.tar.gz -> ${P}.tar.gz"
