@@ -3,13 +3,10 @@ app-crypt/tomb 2.9-r6: File encryption tool for GNU/Linux
 app-doc/gnu-c-intro-ref 9999: GNU C Language Intro and Reference Manual
 app-emacs/magit 9999: A Git porcelain inside Emacs
 app-portage/sam-gentoo-scripts 9999: A collection of scripts for Gentoo development
-dev-python/pkgcraft-python 0.0.3 9999: Python bindings for pkgcraft
 dev-util/arcanist 9999: Command line interface for Phabricator
-dev-util/cargo-nextest 0.9.49: A next-generation test runner for Rust
 games-misc/fortune-mod-forrest-gump 1: A collection of quotes from the movie Forrest Gump
 games-misc/fortune-mod-simpsons-chalkboard 1: A collection of quotes from opening credits of The Simpsons
 net-misc/realtek-rtl88x2bu 0_p20211010 0_p20221213: rtl88x2bu driver updated for current kernels
 sys-devel/gettext-tiny 0.3.2-r1: Stub and/or lightweight replacements of the GNU gettext suite
-sys-libs/pkgcraft 0.0.4 9999: C library for pkgcraft
 www-client/firefox 106.0.5: Firefox Web Browser
 www-client/ladybird 9999: Ladybird web browser using SerenityOS LibWeb engine with a Qt GUI
