@@ -11,4 +11,4 @@ RESTRICT=fetch
 SLOT=0
 SRC_URI=berkeley-mono-typeface-1.009.zip
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=2b3b25cd83513f70f5ba8daa7429aa2b
+_md5_=6b0b76151189b8bf2e60fad934df4316
