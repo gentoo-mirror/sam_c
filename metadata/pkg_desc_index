@@ -6,4 +6,5 @@ games-misc/fortune-mod-simpsons-chalkboard 1-r1: A collection of quotes from ope
 media-fonts/berkeley-mono 1.009-r1: A love letter to the golden era of computing
 net-misc/realtek-rtl88x2bu 0_p20221213-r2 0_p20230628: rtl88x2bu driver updated for current kernels
 sys-devel/gettext-tiny 0.3.2-r1: Stub and/or lightweight replacements of the GNU gettext suite
+sys-fs/ltfs 2.4.5.0_p10502 9999: LTFS for LTO tapes
 www-client/ladybird 9999: Ladybird web browser using SerenityOS LibWeb engine with a Qt GUI
