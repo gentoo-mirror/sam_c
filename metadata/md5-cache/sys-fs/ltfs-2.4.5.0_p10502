@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-libs/libxml2-2.6.16 dev-libs/icu:= >=sys-apps/util-linux-1.36 >=sys-fs/fuse-2.6.0:0 snmp? ( >=net-analyzer/net-snmp-5.3 )
 SLOT=0
 SRC_URI=https://github.com/LinearTapeFileSystem/ltfs/archive/refs/tags/v2.4.5.0-10502.tar.gz -> ltfs-2.4.5.0_p10502.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
 _md5_=1a74d9aef10c1fdb2df772277aafb0ca
