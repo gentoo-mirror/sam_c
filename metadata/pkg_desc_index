@@ -1,5 +1,6 @@
 app-crypt/tomb 2.9-r6: File encryption tool for GNU/Linux
 app-portage/sam-gentoo-scripts 9999: A collection of scripts for Gentoo development
+dev-debug/dtrace 2.0.1.1 9999: Dynamic systemwide tracing tool
 dev-util/arcanist 9999: Command line interface for Phabricator
 dev-util/gprofng-gui 1.1: full-fledged graphical interface to operate gprofng
 games-misc/fortune-mod-forrest-gump 1-r1: A collection of quotes from the movie Forrest Gump
