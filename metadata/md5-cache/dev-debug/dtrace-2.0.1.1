@@ -7,8 +7,8 @@ INHERIT=edo flag-o-matic linux-info toolchain-funcs udev
 IUSE=systemd test
 KEYWORDS=-* ~amd64
 LICENSE=UPL-1.0
-RDEPEND=dev-build/make dev-libs/elfutils dev-libs/libpfm:= net-analyzer/wireshark[dumpcap] net-libs/libpcap sys-devel/gcc >=sys-fs/fuse-3.2.0:3 >=sys-libs/binutils-libs-2.42:= sys-libs/zlib systemd? ( sys-apps/systemd ) net-analyzer/wireshark test? ( app-alternatives/bc app-editors/vim-core dev-build/make dev-lang/perl dev-util/perf net-fs/nfs-utils sys-apps/coreutils sys-fs/xfsprogs sys-process/time virtual/jdk virtual/perl-IO-Socket-IP )
+RDEPEND=!dev-debug/systemtap dev-build/make dev-libs/elfutils dev-libs/libpfm:= net-analyzer/wireshark[dumpcap] net-libs/libpcap sys-devel/gcc >=sys-fs/fuse-3.2.0:3 >=sys-libs/binutils-libs-2.42:= sys-libs/zlib systemd? ( sys-apps/systemd ) net-analyzer/wireshark test? ( app-alternatives/bc app-editors/vim-core dev-build/make dev-lang/perl dev-util/perf net-fs/nfs-utils sys-apps/coreutils sys-fs/xfsprogs sys-process/time virtual/jdk virtual/perl-IO-Socket-IP )
 SLOT=0
 SRC_URI=https://github.com/oracle/dtrace-utils/archive/refs/tags/2.0.1.1.tar.gz -> dtrace-2.0.1.1.tar.gz
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	linux-info	ea4122ba1d8791a12b78e53f9510a2e3	udev	eec0bbab06977f1cfc5597269c1fa152
-_md5_=e43420d345565f2a758c9f4c4b423acd
+_md5_=e0b0d896d385efd6921b250358846d5f
