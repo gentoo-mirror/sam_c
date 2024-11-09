@@ -1,0 +1,15 @@
+BDEPEND=|| ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) dev-util/re2c doc? ( app-text/asciidoc app-text/doxygen dev-libs/libxslt media-gfx/graphviz ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst setup test unpack
+DESCRIPTION=A small build system similar to make
+EAPI=8
+HOMEPAGE=https://ninja-build.org/
+INHERIT=bash-completion-r1 edo python-any-r1 toolchain-funcs git-r3
+IUSE=doc test
+LICENSE=Apache-2.0
+PDEPEND=app-alternatives/ninja
+PROPERTIES=live
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=test? ( https://github.com/google/googletest/archive/refs/tags/v1.14.0.tar.gz -> gtest-1.14.0.tar.gz )
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	bash-completion-r1	767861f3744f589ee5291c1698b1c082	edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	2fee95c11e5f883024588d4837db6802	python-any-r1	f7b9a2fa38c69a9c2a7ad8fc9283ccf7	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=a6615f7fb27a2088124e628dc3412ca0
