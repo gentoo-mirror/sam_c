@@ -4,3 +4,20 @@
 
 app-crypt/tomb:tray - Add a Tomb tray icon in a Qt desktop toolbar
 sys-devel/gettext-tiny:shim - Install libintl library. Not suitable on glibc systems. On musl systems, passes contents through and translates via musl's libintl. On other systems, provides a no-op library (returns input text with no changes/translations).
+sys-libs/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
+sys-libs/glibc:clone3 - Enable the new clone3 syscall within glibc. Can be disabled to allow compatibility with older Electron applications.
+sys-libs/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+sys-libs/glibc:crypt - build and install libcrypt and crypt.h
+sys-libs/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
+sys-libs/glibc:experimental-loong - Add experimental LoongArch patchset
+sys-libs/glibc:gd - build memusage and memusagestat tools
+sys-libs/glibc:hash-sysv-compat - enable sysv linker hashes in glibc for compatibility with binary software (EAC via wine/proton)
+sys-libs/glibc:multiarch - enable optimizations for multiple CPU architectures (detected at runtime)
+sys-libs/glibc:multilib-bootstrap - Provide prebuilt libgcc.a and crt files if missing. Only needed for ABI switch.
+sys-libs/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
+sys-libs/glibc:perl - Install additional scripts written in Perl
+sys-libs/glibc:ssp - protect stack of glibc internals
+sys-libs/glibc:stack-realign - Realign the stack in the 32-bit build for compatibility with older binaries at some performance cost
+sys-libs/glibc:static-pie - Enable static PIE support (runtime files for -static-pie gcc option).
+sys-libs/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
+sys-libs/glibc:systemtap - enable systemtap static probe points
