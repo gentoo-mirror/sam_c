@@ -1,6 +1,6 @@
 app-crypt/tomb 2.9-r6: File encryption tool for GNU/Linux
 app-portage/sam-gentoo-scripts 9999: A collection of scripts for Gentoo development
-dev-build/ninja 1.3.0_p20250630 1.12.1_p20250207 9999: A small build system similar to make
+dev-build/ninja 1.12.1_p20250207 1.13.0_p20250630 9999: A small build system similar to make
 dev-util/perf 6.16_rc4: Userland tools for Linux Performance Counters
 games-misc/fortune-mod-forrest-gump 1-r1: A collection of quotes from the movie Forrest Gump
 games-misc/fortune-mod-simpsons-chalkboard 1-r1: A collection of quotes from opening credits of The Simpsons
