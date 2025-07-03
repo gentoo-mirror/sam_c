@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/ninja-build/ninja/archive/b783add490f05d9614e489530ab83e876a46c7b2.tar.gz -> ninja-1.13.0_p20250630-b783add490f05d9614e489530ab83e876a46c7b2.gh.tar.gz test? ( https://github.com/google/googletest/archive/refs/tags/v1.14.0.tar.gz -> gtest-1.14.0.tar.gz )
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	bash-completion-r1	767861f3744f589ee5291c1698b1c082	edo	a5e294016aa84979fcb2459749eb80b2	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-any-r1	891415dfe39ad9b41b461f2b86354af0
-_md5_=525e900b27119cad121108a6a2f58cfd
+_md5_=46e2ac70d4f001db31b1eb459c95f4d2
