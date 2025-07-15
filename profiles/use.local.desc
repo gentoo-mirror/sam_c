@@ -14,6 +14,15 @@ dev-util/perf:numa - Enable NUMA support using sys-process/numactl (NUMA kernel 
 dev-util/perf:perl - Add support for Perl as a scripting language for perf tools.
 dev-util/perf:systemtap - Add support to define SDT event in perf tools.
 dev-util/perf:unwind - Use sys-libs/libunwind for frame unwinding support.
+sys-devel/binutils:cet - Enable Intel Control-flow Enforcement Technology.
+sys-devel/binutils:debuginfod - Enable debuginfod support via dev-libs/elfutils libdebuginfod
+sys-devel/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
+sys-devel/binutils:gold - Build ld.gold linker
+sys-devel/binutils:gprofng - Enable the next-generation gprofng profiler
+sys-devel/binutils:multitarget - Adds support to binutils for cross compiling (does not work with gas)
+sys-devel/binutils:pgo - Build binutils with Profile Guided Optimization (PGO) and LTO
+sys-devel/binutils:plugins - Enable plugin support in tools
+sys-devel/binutils:xxhash - Use dev-libs/xxhash for --build-id=xx support
 sys-devel/gettext-tiny:shim - Install libintl library. Not suitable on glibc systems. On musl systems, passes contents through and translates via musl's libintl. On other systems, provides a no-op library (returns input text with no changes/translations).
 sys-libs/glibc:cet - Enable Intel Control-flow Enforcement Technology (needs binutils 2.29 and gcc 8)
 sys-libs/glibc:clone3 - Enable the new clone3 syscall within glibc. Can be disabled to allow compatibility with older Electron applications.
