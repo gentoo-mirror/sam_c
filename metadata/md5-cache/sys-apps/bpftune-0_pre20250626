@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/oracle/bpftune/archive/04c7d79ab62b872459d878ceb4fab40477da8103.tar.gz -> bpftune-0_pre20250626.tar.gz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	linux-info	efd923656513c879204fec6638eadee5	systemd	a964c0cbe818b5729da1dbfcee5be861
-_md5_=0efd8cab3245671ed43ceb3f8d6de845
+_md5_=a5880e0fbcc7375c04f15b7ca2e837ad
