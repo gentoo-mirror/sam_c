@@ -6,6 +6,7 @@ games-misc/fortune-mod-forrest-gump 1-r1: A collection of quotes from the movie 
 games-misc/fortune-mod-simpsons-chalkboard 1-r1: A collection of quotes from opening credits of The Simpsons
 media-fonts/berkeley-mono 1.009-r1 2.002: A love letter to the golden era of computing
 net-misc/realtek-rtl88x2bu 0_p20230910 0_p20240108: rtl88x2bu driver updated for current kernels
+sys-apps/bpftune 0_pre20250626 9999: bpftune uses BPF to auto-tune Linux systems
 sys-devel/binutils 9999: Tools necessary to build programs
 sys-devel/gettext-tiny 0.3.2-r1: Stub and/or lightweight replacements of the GNU gettext suite
 sys-fs/ltfs 2.4.5.0_p10502 9999: LTFS for LTO tapes
