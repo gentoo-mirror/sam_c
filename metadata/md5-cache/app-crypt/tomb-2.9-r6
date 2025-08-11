@@ -12,6 +12,6 @@ LICENSE=GPL-3 gui? ( GPL-3+ )
 RDEPEND=dev-libs/libgcrypt tray? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) app-admin/sudo app-crypt/gnupg app-crypt/pinentry app-shells/zsh sys-fs/cryptsetup gui? ( gnome-extra/zenity )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://files.dyne.org/tomb/releases/Tomb-2.9.tar.gz
+SRC_URI=https://files.dyne.org/?file=tomb/releases/Tomb-2.9.tar.gz
 _eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=550319fff1507ca275691844f75ceb9c
+_md5_=c18b0d817456c24784d78e2659388e33
