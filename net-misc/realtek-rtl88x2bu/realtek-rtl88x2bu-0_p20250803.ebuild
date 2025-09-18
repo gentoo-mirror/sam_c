@@ -5,7 +5,7 @@ EAPI=8
 
 inherit linux-mod-r1
 
-MY_COMMIT="e1e98a4bb11c085b68ce7823d44eee703c7422c9"
+MY_COMMIT="c3192d7153de4b324fd662bb9db3ce775879f5e5"
 DESCRIPTION="rtl88x2bu driver updated for current kernels"
 HOMEPAGE="https://github.com/cilynx/rtl88x2bu"
 SRC_URI="https://github.com/cilynx/rtl88x2bu/archive/${MY_COMMIT}.tar.gz -> ${P}.tar.gz"
