@@ -11,6 +11,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:= )
 SLOT=0
-SRC_URI=https://github.com/cilynx/rtl88x2bu/archive/e1e98a4bb11c085b68ce7823d44eee703c7422c9.tar.gz -> realtek-rtl88x2bu-0_p20230910.tar.gz
+SRC_URI=https://github.com/cilynx/rtl88x2bu/archive/c3192d7153de4b324fd662bb9db3ce775879f5e5.tar.gz -> realtek-rtl88x2bu-0_p20250803.tar.gz
 _eclasses_=mount-boot-utils	2551bac1a772f4b6beacb494a750ae92	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	dist-kernel-utils	a40de3638d3f7a89f4c45d1a62b90e20	edo	a5e294016aa84979fcb2459749eb80b2	linux-info	efd923656513c879204fec6638eadee5	multiprocessing	1e32df7deee68372153dca65f4a7c21f	linux-mod-r1	2b1749a4ea9e1aea780b1b54dd2f65f1
-_md5_=3e100d39faf264b284142c19270ec63d
+_md5_=9e9360040bf9b17ffd00104ccf98f476
